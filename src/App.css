@@ -1,0 +1,137 @@
+body{
+  min-width: 320px;
+}
+.primary{
+  color: #FD8791;
+}
+.bg-primary{
+  background-color: #FD8791;
+}
+.primary-h{
+  color: #FD8791;
+}
+.secondary{
+  color: #FF997A;
+}
+.flower{
+  color: #D61C4E;
+}
+.profile{
+  color: #35858B;
+}
+.bg2{
+  background-color: #212121;
+}
+.bg3{
+  background: linear-gradient(180deg, #FF997A 0%, #FD8791 39.9%);
+}
+.primary-h:hover{
+  color: #FFF;
+  transition: ease-in 0.3s;
+}
+.hover{
+  color: #FFF;
+}
+.bg{
+  background-color: #191919;
+}
+
+
+
+/*Navbar CSS*/
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.menu NavLink svg{
+  width: 20px;
+  margin-bottom: 5px;
+}
+.menu a.active{
+  color: #FFF;
+}
+
+.svg:hover{
+  fill: #FFF;
+  transition: ease-in 0.3s;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 60px;
+  padding: 5px;
+}
+.menu span{
+  cursor: default;
+  font-size: x-large;
+}
+.ln-bt::after{
+  display: block;
+  border-bottom: 7px solid #FD8791 ;
+  width: 100px;
+  content: "";
+  border-radius: 25px;
+  margin: 5px 0px;
+}
+
+/* Button */
+.btn{
+  border: 3px solid #FD8791;
+  display: inline-flex;
+  padding: 2px 6px;
+  transition: ease-in 0.3s;
+}
+.btn:hover{
+  background-color: #FF997A;
+  color: #FFF;
+  border: 3px solid #FF997A;
+}
+
+/* Detail */
+.br-sq{
+  border: 5px solid #191919;
+}
+
+/* Project */
+.web{
+  box-shadow: 4px 4px 5px 0px rgba(255,255,255,0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:750px) {
+  #menu-off{
+    display: none;
+  }
+ .navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width:750px) {
+  #bar-on{
+    display: none;
+  }
+
+}
